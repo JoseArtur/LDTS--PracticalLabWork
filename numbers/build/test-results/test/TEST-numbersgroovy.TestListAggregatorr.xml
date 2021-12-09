@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="numbersgroovy.TestListAggregatorr" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-12-08T23:05:05" hostname="DESKTOP-JT674NH" time="0.011">
+  <properties/>
+  <testcase name="sum" classname="numbersgroovy.TestListAggregatorr" time="0.004"/>
+  <testcase name="max" classname="numbersgroovy.TestListAggregatorr" time="0.001"/>
+  <testcase name="max_bug_7263" classname="numbersgroovy.TestListAggregatorr" time="0.0"/>
+  <testcase name="min" classname="numbersgroovy.TestListAggregatorr" time="0.001"/>
+  <testcase name="distinct" classname="numbersgroovy.TestListAggregatorr" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
