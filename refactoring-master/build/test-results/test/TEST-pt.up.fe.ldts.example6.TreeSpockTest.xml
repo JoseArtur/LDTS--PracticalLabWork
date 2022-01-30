@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pt.up.fe.ldts.example6.TreeSpockTest" tests="6" skipped="0" failures="1" errors="0" timestamp="2021-12-10T15:28:08" hostname="DESKTOP-4GJ0GQO" time="0.894">
+  <properties/>
+  <testcase name="Tree Creation" classname="pt.up.fe.ldts.example6.TreeSpockTest" time="0.156"/>
+  <testcase name="Tree Set Location" classname="pt.up.fe.ldts.example6.TreeSpockTest" time="0.001"/>
+  <testcase name="Tree to String" classname="pt.up.fe.ldts.example6.TreeSpockTest" time="0.683">
+    <failure message="Condition not satisfied:&#10;&#10;result == &quot;Tree planted at Sat Aug 31 10:20:56 WEST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)&quot;&#10;|      |&#10;|      false&#10;|      2 differences (98% similarity)&#10;|      Tree planted at Sat Aug 31 10:20:56 (B-)ST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)&#10;|      Tree planted at Sat Aug 31 10:20:56 (WE)ST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)&#10;Tree planted at Sat Aug 31 10:20:56 BST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+result == &quot;Tree planted at Sat Aug 31 10:20:56 WEST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)&quot;
+|      |
+|      false
+|      2 differences (98% similarity)
+|      Tree planted at Sat Aug 31 10:20:56 (B-)ST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)
+|      Tree planted at Sat Aug 31 10:20:56 (WE)ST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)
+Tree planted at Sat Aug 31 10:20:56 BST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)
+
+	at pt.up.fe.ldts.example6.TreeSpockTest.Tree to String(TreeSpockTest.groovy:40)
+</failure>
+  </testcase>
+  <testcase name="Add Appraisal" classname="pt.up.fe.ldts.example6.TreeSpockTest" time="0.02"/>
+  <testcase name="Next Appraisal Overdue" classname="pt.up.fe.ldts.example6.TreeSpockTest" time="0.03"/>
+  <testcase name="Next Appraisal Not Overdue" classname="pt.up.fe.ldts.example6.TreeSpockTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
